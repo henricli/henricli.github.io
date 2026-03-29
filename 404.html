@@ -3,10 +3,9 @@
 <head>
 <meta charset="UTF-8"/>
 <script>
-// Redireciona para o site principal mantendo o token do email
-var hash = window.location.hash;
-var search = window.location.search;
-window.location.replace('https://henricli.github.io/Code-Msg/' + (search || '') + (hash || ''));
+var h=window.location.hash;
+var s=window.location.search;
+window.location.replace('https://henricli.github.io/Code-Msg/'+(s||'')+(h||''));
 </script>
 </head>
 <body></body>
